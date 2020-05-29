@@ -336,6 +336,19 @@
             ],
             "title": "Glenn Engstrand",
             "website": "http://glennengstrand.info/blog/"
+        },
+        {
+            "author": "Stavros Korokithakis",
+            "description": "I figure some people might be interested about the projects I make from time to time, or the solution to problems I have, so I publish them.",
+            "tags": [
+                "hardware",
+                "programming",
+                "python",
+                "maker",
+                "arduino"
+            ],
+            "title": "Stavros' Stuff",
+            "website": "https://www.stavros.io/"
         }
     ]
 }
