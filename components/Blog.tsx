@@ -4,7 +4,7 @@ interface BlogProps extends BlogType {}
 
 export function Blog({ website, title, description, author, tags }: BlogProps) {
   return (
-    <div
+    <p
       style={{
         marginTop: 20,
         marginBottom: 50,
@@ -29,7 +29,7 @@ export function Blog({ website, title, description, author, tags }: BlogProps) {
           </Link>
         ))}
       </p>
-    </div>
+    </p>
   );
 }
 

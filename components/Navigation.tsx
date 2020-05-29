@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Navigation() {
   return (
-    <div>
+    <p>
       <Link href="/">
         <a>
           <h2>
@@ -37,6 +37,6 @@ export function Navigation() {
           Source Code
         </a>
       </p>
-    </div>
+    </p>
   );
 }

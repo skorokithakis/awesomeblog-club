@@ -22,7 +22,7 @@ export function SearchList(props: SearchListProps) {
     setList(items);
   }
   return (
-    <div>
+    <p>
       <h6> New favorite blog few typos away... </h6>
       <input
         placeholder="programming"
@@ -32,6 +32,6 @@ export function SearchList(props: SearchListProps) {
       />
       <p> Search works with all the metadata including tags. </p>
       <BlogList items={list} />
-    </div>
+    </p>
   );
 }
