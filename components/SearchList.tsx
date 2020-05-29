@@ -23,7 +23,7 @@ export function SearchList(props: SearchListProps) {
   }
   return (
     <div>
-      <h6> New favorite blog few typos away... </h6>
+      <h5> New favorite blog few typos away... </h5>
       <input
         placeholder="programming"
         aria-label="search box"

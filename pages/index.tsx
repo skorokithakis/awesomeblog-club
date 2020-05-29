@@ -37,7 +37,14 @@ function IndexPage({ blogs }) {
         .
       </blockquote>
 
-      <h6> Maybe you should try something random today? </h6>
+      <h4
+        style={{
+          paddingBottom: 5,
+        }}
+      >
+        {" "}
+        Maybe you should try something random today?{" "}
+      </h4>
       <IAmFeelingLucky />
 
       <SearchList fuse={fuse} blogs={blogs} />
