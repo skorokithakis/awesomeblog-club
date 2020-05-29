@@ -1,0 +1,127 @@
+{
+    "blogs": [
+        {
+            "author": "Paul Graham",
+            "description": "Lisp wizard and an investor. You should probably just google me.",
+            "tags": [
+                "lisp",
+                "startups",
+                "startup",
+                "parenting",
+                "career",
+                "programming",
+                "work"
+            ],
+            "title": "Paul Graham",
+            "website": "http://www.paulgraham.com"
+        },
+        {
+            "author": "Linus Åkesson",
+            "description": "My name is Linus Åkesson, though some of you may know me as lft. I live in Lund, Sweden, and work as a software engineer. \nI dabble in many different areas. My blog is bilingual (swedish).",
+            "tags": [
+                "music",
+                "poetry",
+                "movies",
+                "programming",
+                "yoga",
+                "mathematics",
+                "meta-mathematics",
+                "Swedish-folk-dance",
+                "books",
+                "translation",
+                "psychology-sociology",
+                "information-security",
+                "close-up-magic",
+                "language-japanese",
+                "discordianism",
+                "electronics",
+                "type-setting",
+                "meditation",
+                "mechatronics",
+                "lucid-dreaming",
+                "go",
+                "cryptic-crosswords",
+                "interactive-fiction"
+            ],
+            "title": "linusakesson",
+            "website": "https://www.linusakesson.net"
+        },
+        {
+            "author": "Julia Evans",
+            "description": "I’m a software developer. I live in Montreal. I sometimes give talks. Most of my income comes from my programming zines business Wizard Zines.",
+            "tags": [
+                "computers",
+                "networking",
+                "shell-tools",
+                "kubernetes",
+                "containers",
+                "comics",
+                "exercises",
+                "writing",
+                "conferences",
+                "organizing-conferences",
+                "statistics",
+                "operation-engineering",
+                "career",
+                "work",
+                "remote-work",
+                "podcasts",
+                "rust-lang",
+                "debugging-stories",
+                "open-source",
+                "linux",
+                "recurse-center",
+                "programming"
+            ],
+            "title": "jvns",
+            "website": "https://jvns.ca"
+        },
+        {
+            "author": "Jeff Preshing",
+            "description": "This is where I write about programming-related stuff. I try to keep it technical, and tend to focus on C++ and Python, but these aren’t strict rules. You could say the main theme throughout this blog is a reverence and fascination for programming.",
+            "tags": [
+                "python",
+                "cpp",
+                "gaming",
+                "game-development",
+                "game-dev",
+                "game-engine",
+                "programming"
+            ],
+            "title": "preshing",
+            "website": "https://preshing.com"
+        },
+        {
+            "author": "Eli Bendersky",
+            "description": "This blog began in 2003 as a personal online journal; in the past few years it became mostly an outlet for technical, programming-related posts. It's my way to document things I find interesting for my future self.",
+            "tags": [
+                "go",
+                "go-lang",
+                "webdev",
+                "networking",
+                "games",
+                "programming",
+                "python",
+                "cpp"
+            ],
+            "title": "Eli Bendersky's website",
+            "website": "https://eli.thegreenplace.net"
+        },
+        {
+            "author": "Glenn Engstrand",
+            "description": "Whenever I evaluate a technology stack for microservice architecture viability, I implement the same feature identical polyglot persistent microservice then run it through the same load test as all the others. In that way, I can compare and contrast these various technology stacks. I blog about the results here.",
+            "tags": [
+                "architecture",
+                "big-data",
+                "cloud-computing",
+                "graphql",
+                "stack",
+                "programming",
+                "python",
+                "cpp"
+            ],
+            "title": "Glenn Engstrand",
+            "website": "http://glennengstrand.info/blog/"
+        }
+    ]
+}

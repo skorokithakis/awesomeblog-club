@@ -1,0 +1,21 @@
+{
+    "short_name": "Awsm blogs",
+    "name": "Awesome blog club",
+    "description": "Disover cool indie and personal blogs.",
+    "icons": [
+        {
+            "src": "/images/icon-256.png",
+            "type": "image/png",
+            "sizes": "256x257"
+        },
+        {
+            "src": "/images/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#181818"
+}
