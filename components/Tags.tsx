@@ -5,7 +5,7 @@ export function Tags() {
   return (
     <div>
       <h5> All tags </h5>
-      <p className="tags-container">
+      <div className="tags-container">
         {store.getTags().map((tag, index) => {
           return (
             <Link key={index} href={`/tags/${tag}`}>
@@ -20,7 +20,7 @@ export function Tags() {
             </Link>
           );
         })}
-      </p>
+      </div>
     </div>
   );
 }

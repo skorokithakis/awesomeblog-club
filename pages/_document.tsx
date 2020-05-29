@@ -11,7 +11,7 @@ class DeAmpBotDocument extends Document {
         <Head>
           <meta charSet="UTF-8" />
           <link rel="manifest" href="/manifest.json" />
-          <meta ref="theme-color" content="#181818" />
+          <meta name="theme-color" content="#181818" />
           <link rel="icon" type="image/png" href="/images/icon-512.png" />
           <meta
             name="viewport"

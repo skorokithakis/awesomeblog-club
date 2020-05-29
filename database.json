@@ -4,7 +4,7 @@
             "author": "Paul Graham",
             "description": "Lisp wizard and an investor. You should probably just google me.",
             "tags": [
-                "lisp",
+                "lisp-lang",
                 "startups",
                 "startup",
                 "parenting",
@@ -23,7 +23,7 @@
                 "poetry",
                 "movies",
                 "programming",
-                "yoga",
+                "yoga-exercise",
                 "mathematics",
                 "meta-mathematics",
                 "Swedish-folk-dance",
@@ -80,7 +80,7 @@
             "description": "This is where I write about programming-related stuff. I try to keep it technical, and tend to focus on C++ and Python, but these aren’t strict rules. You could say the main theme throughout this blog is a reverence and fascination for programming.",
             "tags": [
                 "python",
-                "cpp",
+                "cpp-lang",
                 "gaming",
                 "game-development",
                 "game-dev",
@@ -100,7 +100,7 @@
                 "games",
                 "programming",
                 "python",
-                "cpp"
+                "cpp-lang"
             ],
             "title": "Eli Bendersky's website",
             "website": "https://eli.thegreenplace.net"
@@ -116,7 +116,7 @@
                 "stack",
                 "programming",
                 "python",
-                "cpp"
+                "cpp-lang"
             ],
             "title": "Glenn Engstrand",
             "website": "http://glennengstrand.info/blog/"
