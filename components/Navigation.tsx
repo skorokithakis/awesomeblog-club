@@ -3,28 +3,22 @@ import Link from "next/link";
 export function Navigation() {
   return (
     <nav>
-      <Link href="/">
-        <a>
-          <h2>{process.env.TITLE}</h2>
-        </a>
-      </Link>
-      <p> {process.env.DESCRIPTION} </p>
       <p>
         <Link href="/contribute">
-          <a> How to contribute </a>
-        </Link>
-        /
+          <a>How to contribute</a>
+        </Link>{" "}
+        /{" "}
         <Link href="/submit">
-          <a> Submit your blog </a>
-        </Link>
-        /
+          <a>Submit your blog</a>
+        </Link>{" "}
+        /{" "}
         <Link href="/deployment">
-          <a> Deploy your own </a>
-        </Link>
-        /
+          <a>Deploy your own</a>
+        </Link>{" "}
+        /{" "}
         <Link href="/contact">
-          <a> Contact </a>
-        </Link>
+          <a>Contact</a>
+        </Link>{" "}
         /{" "}
         <a
           target="_blank"
@@ -34,6 +28,12 @@ export function Navigation() {
           Source Code
         </a>
       </p>
+      <Link href="/">
+        <a>
+          <h2>{process.env.TITLE}</h2>
+        </a>
+      </Link>
+      <p> {process.env.DESCRIPTION} </p>
     </nav>
   );
 }

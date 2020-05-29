@@ -349,6 +349,19 @@
             ],
             "title": "Stavros' Stuff",
             "website": "https://www.stavros.io/"
+        },
+        {
+            "author": "Dave Glassanos",
+            "description": "Non-technical advice to navigate your programming career.",
+            "tags": [
+                "Career Advice",
+                "programming",
+                "nodejs",
+                "deno",
+                "php"
+            ],
+            "title": "Exponential Backoff",
+            "website": "https://www.exponentialbackoff.com/"
         }
     ]
 }
