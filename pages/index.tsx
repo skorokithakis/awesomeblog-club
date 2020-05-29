@@ -18,6 +18,15 @@ function IndexPage({ blogs }) {
         title="Awesomeblog.club - explore"
         description="Discover awesome small and personal blogs."
       />
+
+      <iframe
+        src="https://ghbtns.com/github-btn.html?user=searchableguy&repo=awesomeblog-club&type=star&count=true&size=large"
+        frameBorder="0"
+        scrolling="0"
+        width="170"
+        height="30"
+        title="GitHub"
+      ></iframe>
       <blockquote>
         I am hijacking this blockquote. I built this in response to various{" "}
         <a
