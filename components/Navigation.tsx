@@ -3,12 +3,6 @@ import Link from "next/link";
 export function Navigation() {
   return (
     <nav>
-      <Link href="/">
-        <a>
-          <h2>{process.env.TITLE}</h2>
-        </a>
-      </Link>
-      <p> {process.env.DESCRIPTION} </p>
       <p>
         <Link href="/contribute">
           <a> How to contribute </a>
@@ -34,6 +28,12 @@ export function Navigation() {
           Source Code
         </a>
       </p>
+      <Link href="/">
+        <a>
+          <h2>{process.env.TITLE}</h2>
+        </a>
+      </Link>
+      <p> {process.env.DESCRIPTION} </p>
     </nav>
   );
 }
