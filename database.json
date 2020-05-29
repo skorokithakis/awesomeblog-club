@@ -336,6 +336,20 @@
             ],
             "title": "Glenn Engstrand",
             "website": "http://glennengstrand.info/blog/"
+        },
+        {
+            "author": "Dave Glassanos",
+            "description": "Non-technical advice to navigate your programming career.",
+            "tags": [
+                "Career Advice",
+                "programming",
+                "nodejs",
+                "deno",
+                "php",
+                "cocktails"
+            ],
+            "title": "Exponential Backoff",
+            "website": "https://www.exponentialbackoff.com/"
         }
     ]
 }
