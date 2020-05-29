@@ -345,8 +345,7 @@
                 "programming",
                 "nodejs",
                 "deno",
-                "php",
-                "cocktails"
+                "php"
             ],
             "title": "Exponential Backoff",
             "website": "https://www.exponentialbackoff.com/"
