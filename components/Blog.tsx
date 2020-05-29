@@ -1,35 +1,24 @@
 import Link from "next/link";
 import { BlogType } from "../utils/types";
+
 interface BlogProps extends BlogType {}
 
 export function Blog({ website, title, description, author, tags }: BlogProps) {
   return (
-    <p
-      style={{
-        marginTop: 20,
-        marginBottom: 50,
-      }}
-    >
+    <div className="blog-card">
       <a href={website} target="_blank" rel="noopener noreferrer">
         {title}
       </a>
       <h6> Authored by {author}</h6>
       <p> {description}</p>
-      <p>
-        {tags.map((item, index) => (
+      <div className="tags-container">
+        {tags.sort().map((item, index) => (
           <Link href="/tags/[id]" as={`/tags/${item}`} key={index}>
-            <a
-              style={{
-                marginRight: 5,
-                fontSize: 12,
-              }}
-            >
-              {item}
-            </a>
+            <a>{item}</a>
           </Link>
         ))}
-      </p>
-    </p>
+      </div>
+    </div>
   );
 }
 

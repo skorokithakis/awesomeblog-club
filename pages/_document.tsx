@@ -7,10 +7,11 @@ class DeAmpBotDocument extends Document {
   }
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <meta charSet="UTF-8" />
           <link rel="manifest" href="/manifest.json" />
+          <meta ref="theme-color" content="#181818" />
           <link rel="icon" type="image/png" href="/images/icon-512.png" />
           <meta
             name="viewport"

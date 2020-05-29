@@ -1,6 +1,7 @@
 const withMDXEnhanced = require("next-mdx-enhanced");
+const withOffline = require("next-offline");
 
-module.exports = withMDXEnhanced({
+const nextConfig = withMDXEnhanced({
   layoutPath: "layouts",
 })({
   pageExtensions: ["ts", "tsx", "md", "mdx"],
@@ -15,6 +16,9 @@ module.exports = withMDXEnhanced({
     TWITTER: "https://twitter.com/searchableguy",
     DISCORD: "https://discord.gg/pYkNGMK",
     DOMAIN: "awesomeblog.club",
+    TITLE: "Awesomeblog.club",
     DESCRIPTION: "Discover awesome small and personal blogs.",
   },
 });
+
+module.exports = withOffline(nextConfig);

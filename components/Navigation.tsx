@@ -2,13 +2,10 @@ import Link from "next/link";
 
 export function Navigation() {
   return (
-    <p>
+    <nav>
       <Link href="/">
         <a>
-          <h2>
-            {process.env.DOMAIN.charAt(0).toUpperCase() +
-              process.env.DOMAIN.slice(1)}
-          </h2>
+          <h2>{process.env.TITLE}</h2>
         </a>
       </Link>
       <p> {process.env.DESCRIPTION} </p>
@@ -37,6 +34,6 @@ export function Navigation() {
           Source Code
         </a>
       </p>
-    </p>
+    </nav>
   );
 }

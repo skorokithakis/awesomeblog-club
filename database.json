@@ -39,7 +39,6 @@
                 "meditation",
                 "mechatronics",
                 "lucid-dreaming",
-                "go",
                 "cryptic-crosswords",
                 "interactive-fiction"
             ],
@@ -95,7 +94,6 @@
             "author": "Eli Bendersky",
             "description": "This blog began in 2003 as a personal online journal; in the past few years it became mostly an outlet for technical, programming-related posts. It's my way to document things I find interesting for my future self.",
             "tags": [
-                "go",
                 "go-lang",
                 "webdev",
                 "networking",

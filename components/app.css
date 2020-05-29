@@ -1,0 +1,31 @@
+.blog-card {
+  margin: 50px 0;
+}
+
+:root {
+  --nc-lk-1: #4d4dff;
+  --nc-lk-2: #6f00ff;
+}
+
+body {
+  background: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #181818;
+  }
+}
+
+.blog-card > a {
+  font-size: x-large;
+}
+
+.tags-container > a {
+  white-space: nowrap;
+  padding: 15px 21px 15px 0;
+  margin-right: 20px;
+  font-size: 18px;
+  vertical-align: top !important;
+  font-family: Arial, Helvetica, sans-serif;
+}

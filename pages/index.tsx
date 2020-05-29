@@ -32,7 +32,7 @@ function IndexPage({ blogs }) {
         them so much but they are getting harder to find with everyone spamming
         AMP and SEO bs in search results. So I made this. Read more about
         <Link href="/motivation">
-          <a> here</a>
+          <a> motivation </a>
         </Link>
         .
       </blockquote>
