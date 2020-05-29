@@ -25,7 +25,7 @@ export function SearchList(props: SearchListProps) {
     <div>
       <h5> New favorite blog few typos away... </h5>
       <input
-        placeholder="programming"
+        placeholder="Search"
         aria-label="search box"
         type="text"
         onChange={onQuery}
