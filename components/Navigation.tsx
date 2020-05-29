@@ -5,20 +5,20 @@ export function Navigation() {
     <nav>
       <p>
         <Link href="/contribute">
-          <a> How to contribute </a>
-        </Link>
-        /
+          <a>How to contribute</a>
+        </Link>{" "}
+        /{" "}
         <Link href="/submit">
-          <a> Submit your blog </a>
-        </Link>
-        /
+          <a>Submit your blog</a>
+        </Link>{" "}
+        /{" "}
         <Link href="/deployment">
-          <a> Deploy your own </a>
-        </Link>
-        /
+          <a>Deploy your own</a>
+        </Link>{" "}
+        /{" "}
         <Link href="/contact">
-          <a> Contact </a>
-        </Link>
+          <a>Contact</a>
+        </Link>{" "}
         /{" "}
         <a
           target="_blank"
