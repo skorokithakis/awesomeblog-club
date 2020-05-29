@@ -10,7 +10,7 @@ module.exports = withMDXEnhanced({
     reactStrictMode: true,
   },
   env: {
-    CODE_REPO: "https://github.com/searchableguy/awesomeblog.club",
+    CODE_REPO: "https://github.com/searchableguy/awesomeblog-club",
     EMAIL: "me@searchableguy.com",
     TWITTER: "https://twitter.com/searchableguy",
     DISCORD: "https://discord.gg/pYkNGMK",
